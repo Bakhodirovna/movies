@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework3.3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-2">Movies catalog</h2>
+        <div class="row mt-2">
+            <div class="col-4 ">
+                <div>
+                    <form action="https://marvelavengersstation.com/">
+                        <input class="form-control mt-3" value="ave" type="text">
+                        <input class="form-control mt-3" value="5" type="number">
+                        <select class="form-select mt-3" aria-label="Default select example">
+                            <option selected>All</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <select class="form-select mt-3" aria-label="Default select example">
+                            <option selected>Rating (hight to low)</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary form-control mt-3">search</button>
+                    </form>
+                </div>
+                <div>
+                    <h2 class="mt-4"><strong>Bookmarket movies</strong></h2>
+                    <div class="card" style="width: 18rem form-control">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <h4>Avengers: Infinity war</h4>
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </li>
+                          <li class="list-group-item">
+                            <h4>The Avengers</h4>
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                          </li>
+                          <li class="list-group-item">
+                            <h4>12 Years a slave</h4>
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="col-8 mt-2 ">
+                <h4>Search results: 39</h4>
+                <div class="alert alert-primary mt-3" role="alert">
+                    Use the form on the left to search for a movie
+                </div>
+                <div class="box d-flex justify-content-between">
+                    <div class="card" style="width: 26rem;">
+                        <img src="https://avatars.mds.yandex.net/i?id=241e76043d0be0d56c3d4a2c0582dd47-5239905-images-thumbs&n=13" class="card-img-top" alt="Marvel">
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers: Infinity war</h5>
+                          <div class="box d-flex">
+                            <img src="./img/kalendar.jpg" width="25" height="25" alt="kalendar">
+                            <p class="p ms-2">2018</p>
+                        </div>
+                        <div class="box d-flex">
+                            <img src="./img/star.jpg" width="25" height="25" alt="star">
+                            <p class="p ms-2">8.7</p>
+                        </div>
+                            <div class="box d-flex justify-content-between btn-sm">                      
+                                <a href="#" class="btn btn-outline-primary">Watch trailer</a>
+                                <a href="#" class="btn btn-outline-primary">More info</a>
+                                <a href="#" class="btn btn-outline-success">Bookmark</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card col-4" style="width: 26rem;">
+                        <img src="https://sm.ign.com/t/ign_nl/gallery/2/22-avenger/22-avengers-infinity-war-character-posters_88ur.1200.jpg" class="card-img-top" alt="Marvel">
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers: Infinity war</h5>
+                            <div class="box d-flex">
+                                <img src="./img/kalendar.jpg" width="25" height="25" alt="kalendar">
+                                <p class="p ms-2">2012</p>
+                            </div>
+                            <div class="box d-flex">
+                                <img src="./img/star.jpg" width="25" height="25" alt="star">
+                                <p class="p ms-2">8.1</p>
+                            </div>
+                            <div class="box d-flex justify-content-between w-90">                      
+                                <a href="#" class="btn btn-outline-primary">Watch trailer</a>
+                                <a href="#" class="btn btn-outline-primary">More info</a>
+                                <a href="#" class="btn btn-outline-success">Bookmark</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <nav class="nav mt-4 justify-content-center">
+                    <ul class="pagination pagination-sm">
+                      <li class="page-item active" aria-current="page">
+                        <span class="page-link">1</span>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
